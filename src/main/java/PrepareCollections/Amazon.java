@@ -24,8 +24,9 @@ public class Amazon {
                         k++;
                     }
                 }
-                System.out.println(a[i]);
-                System.out.println(k);
+                System.out.print(a[i] +" ");
+                System.out.print(k);
+                System.out.println(" ");
                 if(k==1)
                 {
                     System.out.println(a[i] + " is unique number");

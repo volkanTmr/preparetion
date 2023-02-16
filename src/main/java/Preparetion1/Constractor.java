@@ -9,6 +9,11 @@ public class Constractor {
         System.out.println(" I am constructor ");
     }
 
+    public Constractor(boolean a){
+        System.out.println("mfhmf"+a);
+
+    }
+
     public Constractor(int a,int b){
 
         System.out.println(" I am paramatrised constr  "+ (a+b));

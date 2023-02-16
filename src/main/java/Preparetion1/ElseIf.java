@@ -11,5 +11,13 @@ public class ElseIf {
 
             else
                 System.out.println("not displayed");
+
+
+            for(int j=0; j<10; j=j+3)
+                if(j==3)
+                    System.out.println("3 is displayed");
+
+                else
+                    System.out.println("not displayed");
     }
 }

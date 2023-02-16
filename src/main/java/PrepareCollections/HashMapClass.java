@@ -17,6 +17,10 @@ public class HashMapClass { // hashmap i set e çevir elemanları bas
         hm.put(3,"evening");
         hm.put(4,null);
 
+        HashMap<String,String> klm=new HashMap<>();
+        klm.put("pencil","kalem");
+        System.out.println(klm.get("pencil"));
+
         System.out.println(hm.get(42));
         hm.remove(42);
         System.out.println(hm.get(42));
@@ -26,9 +30,9 @@ public class HashMapClass { // hashmap i set e çevir elemanları bas
         while(it.hasNext())
         {
             System.out.println(it.next());
-            Map.Entry mp=(Map.Entry) it.next();
-            System.out.println(mp.getKey());
-            System.out.println(mp.getValue());
+         //   Map.Entry mp=(Map.Entry) it.next();
+         //   System.out.println(mp.getKey());
+         //   System.out.println(mp.getValue());
 
         }
 

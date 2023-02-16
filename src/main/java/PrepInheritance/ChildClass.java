@@ -10,9 +10,14 @@ public class ChildClass extends ParentInherit{
         System.out.println(" l am childClass Constructor ");
     }
 
+    @Override
+    public void gear() {
+        super.gear();
+    }
+
     public void engine(){
 
-        System.out.println(" new generation engine ");
+        System.out.println(" new generation engine " + super.colour);
     }
 
 
@@ -23,13 +28,6 @@ public class ChildClass extends ParentInherit{
         super.audioSystem();
         System.out.println(" new system audio ");
     }
-
-    /*public void audioSystem() {
-
-        System.out.println(" new system audio ");
-
-    }*/
-
 
     public void colour(){
 
@@ -46,6 +44,8 @@ public class ChildClass extends ParentInherit{
         cc.colour();
         cc.breaks();
         cc.audioSystem();
+        cc.engine();
+        cc.gear();
 
     }
 }

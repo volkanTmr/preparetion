@@ -34,9 +34,9 @@ public class Instances {
 
     public static void main(String[] args) {
 
-        Instances ins= new Instances("kamil","merter");
-        Instances ins2= new Instances("roni","merter");
-        Instances ins3= new Instances("roni","merter");
+        Instances ins= new Instances("kamil","rize");
+        Instances ins2= new Instances("roni","artvin");
+        Instances ins3= new Instances("roni","bolu");
         ins.getAddress();
         ins2.getAddress();
         Instances.getCity();

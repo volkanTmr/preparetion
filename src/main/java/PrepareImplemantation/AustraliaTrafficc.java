@@ -2,12 +2,16 @@ package PrepareImplemantation;
 
 public class AustraliaTrafficc implements TraficcRuless{
 
+
+
     public static void main(String[] args) {
 
         TraficcRuless tr = new AustraliaTrafficc();
         tr.flashYellow();
         tr.greenGo();
         tr.redGo();
+        AustraliaTrafficc mr=new AustraliaTrafficc();
+        mr.parkArea();
 
     }
 
@@ -31,5 +35,9 @@ public class AustraliaTrafficc implements TraficcRuless{
 
         System.out.println(" yellow imple" );
 
+    }
+
+    public void parkArea(){
+        System.out.println(" you can park ");
     }
 }

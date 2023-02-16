@@ -16,6 +16,7 @@ public class HashTableClass {
         hm.put(1, "goodbye");
         hm.put(42, "morning");
         hm.put(3, "evening");
+        hm.put(5,"");
         System.out.println(hm.get(42));
         hm.remove(42);
         System.out.println(hm.get(42));
@@ -24,9 +25,16 @@ public class HashTableClass {
 
         while (it.hasNext()) {
             System.out.println(it.next());
-            Map.Entry mp = (Map.Entry) it.next();
-            System.out.println(mp.getKey());
-            System.out.println(mp.getValue());
+         //   Map.Entry mp = (Map.Entry) it.next();
+         //   System.out.println(mp.getKey());
+         //   System.out.println(mp.getValue());
+
+        Hashtable<String,String> ht=new Hashtable<>();
+        ht.put("pencil","kalem");
+        ht.put("go","git");
+        ht.put("table","masa");
+            System.out.println(ht.get("pencil"));
+            ht.remove("pencil");
         }
     }
 }
